@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>동아리 게임</title>
+  <style>
+    html, body { margin:0; padding:0; background:#000; width:100%; height:100%; overflow:hidden; }
+    /* ✅ 한글 깨짐(네모) 방지: 윈도우 기본 한글 폰트 우선 */
+    body, canvas { font-family: "Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif; }
+    #game { width:100%; height:100%; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+
+  <!-- ✅ 로컬 phaser 파일 -->
+  <script src="./phaser.min.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>
